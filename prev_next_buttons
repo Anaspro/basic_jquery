@@ -1,0 +1,9 @@
+<script type=”text/javascript”>
+jQuery(function($){
+if(jQuery(‘.nivoSlider’).find(‘img’).length>1){
+$(‘#slider’).nivoSlider({
+effect: ‘fade’ // Specify sets like: ‘fold,fade,sliceDown’
+});
+}
+});
+</script>
