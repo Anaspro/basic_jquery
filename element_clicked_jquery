@@ -1,0 +1,5 @@
+<script>
+$(“body”).click(function(event) {
+alert(event.target.id)
+});
+</script>
