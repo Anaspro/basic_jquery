@@ -1,0 +1,16 @@
+<html>
+<head>
+<script type=”text/javascript” src=”jquery.js”></script>
+</head>
+<div id=”divId”>
+<iframe src=”http://phpcodez.com” scrolling=”no” frameborder=”0″ style=”border: none; width: 90px; height: 20px; “></iframe>
+</div>
+<script type=”text/javascript”>
+jQuery.noConflict();
+jQuery(document).ready(function() {
+if(jQuery(“#divId”+” iframe”).attr(‘src’).indexOf(“https”)<=-1) {
+alert(“Its not a secure url”);
+}
+});
+</script>
+</html>
